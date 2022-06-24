@@ -1,0 +1,16 @@
+@import "../../../styles.scss";
+
+.redes-sociais{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 25px;
+}
+
+img{
+  width: 40px;
+}
+.icones{
+  background-color: $button-color;
+  padding: 8px;
+  border-radius: 50%;
+}

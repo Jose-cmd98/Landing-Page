@@ -1,0 +1,88 @@
+@import "../../../styles.scss";
+
+
+.top-content{
+  background-color: $principal-color;
+  padding-top: 50px;
+}
+
+.texto{
+  margin-top: 190px;
+
+}
+.titulo{
+  color: $under-card-color;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: $main-font;
+}
+.paragrafo{
+  color: black;
+  font-size: 23px;
+  font-weight: 700;
+  font-family: $main-font;
+}
+.button1{
+  border-radius: 10px;
+  background-color: #FFF;
+  padding: 10px 90px 10px 90px;
+  text-decoration: none;
+  font-weight: 700;
+  color: $under-card-color;
+  font-family: $main-font;
+    &.button1:hover{
+      background-color: $button-color;
+      color: #FFF;
+      border: 1px solid #FFF;
+    }
+}
+.a:hover{
+  transform: scale(1.1);
+  transition: transform .1s;
+}
+.button2{
+  border-radius: 10px;
+  background-color: $button-color;
+  padding: 10px 80px 10px 80px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #FFF;
+  font-family: $main-font;
+    &.button2:hover{
+      background-color: #FFF;
+      color: $under-card-color;
+      border: 1px solid $under-card-color;
+    }
+}
+.img{
+  width: 550px;
+  height: 800px;
+}
+//
+.second-content{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.titulo2{
+  color: rgb(173, 170, 170);
+  font-size: 47px;
+  font-weight: 500;
+  font-family: $main-font;
+}
+.sp{
+  color: $color-text-two;
+  opacity: 0.9;
+}
+
+//
+.tird-content{
+  background-color: $principal-color;
+}
+
+//
+.e{
+  padding-top: 35px;
+}
+.b{
+  padding-top: 25px;
+}
