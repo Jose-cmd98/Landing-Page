@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // uiKit
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CardsComponent } from './view/cards/cards.component';
+import { SwiperModule } from 'swiper/angular';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { CardsComponent } from './view/cards/cards.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     RouterModule,
-    CarouselModule
+    CarouselModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

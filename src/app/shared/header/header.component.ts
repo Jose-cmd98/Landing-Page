@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit(): void {
+    this.onWindowScroll();
+  }
+
+  @HostListener('window:scroll', ['$event'])
+
+  onWindowScroll(){
+    let element = document.getElementById('#nav') as HTMLElement;
+    if(window.pageYOffset > 50){
+      element.classList.add('navbar-inverse')
+    } else{
+      element.classList.remove('navbar-inverse');
+    }
+
   }
 
 }

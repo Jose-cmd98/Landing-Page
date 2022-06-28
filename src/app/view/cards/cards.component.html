@@ -1,4 +1,4 @@
-<div class="container-md">
+<!-- <div class="container-md">
   <h1 class="texto text-center">Akses Jutaan Video tanpa Batas</h1>
   <div class="d-sm-flex justify-content-around e">
     <section>
@@ -13,9 +13,80 @@
       <img class="carde" src="../../../assets/imagens/_card/jeshoots-com-p8kaVRe4edM-unsplash.png" alt="">
       <p class="paragrafo text-center">Basic Photography & How to Set <br>Up Camera</p>
     </section>
-    <!-- <section>
-      <img class="carde" src="../../../assets/imagens/_card/jeshoots-com-p8kaVRe4edM-unsplash.png" alt="">
-      <p class="paragrafo text-center">Data and Web Mining: Expert <br> Sistem</p>
-    </section> -->
   </div>
-</div>
+</div> -->
+<!--
+<swiper class="mySwiper">
+  <ng-template swiperSlide>Slide 1 Slide 2 Slide 3</ng-template
+  ><ng-template swiperSlide>Slide 2</ng-template
+  ><ng-template swiperSlide>Slide 3</ng-template
+  ><ng-template swiperSlide>Slide 4</ng-template
+  ><ng-template swiperSlide>Slide 5</ng-template
+  ><ng-template swiperSlide>Slide 6</ng-template
+  ><ng-template swiperSlide>Slide 7</ng-template
+  ><ng-template swiperSlide>Slide 8</ng-template
+  ><ng-template swiperSlide>Slide 9</ng-template>
+</swiper> -->
+
+<h1 class="texto text-center">Akses Jutaan Video tanpa Batas</h1>
+  <swiper
+  [effect]="'creative'"
+  [creativeEffect]="{
+    prev: {
+      shadow: true,
+      translate: [0, 0, -400]
+    },
+    next: {
+      translate: ['100%', 0, 0]
+    }
+  }"
+      [grabCursor]="true"
+      [autoplay]="{
+        delay: 1500,
+        disableOnInteraction: false
+      }"
+      [loop]="true"
+    [loopFillGroupWithBlank]="true"
+    >
+  <ng-template swiperSlide>
+    <div class="container-md">
+      <div class="d-sm-flex justify-content-around e">
+        <section>
+          <img class="carde" src="../../../assets/imagens/_card/luke-peters-B6JINerWMz0-unsplash 1.png" alt="">
+          <p class="paragrafo text-center">Front End Development with <br> CodeIgniter</p>
+        </section>
+        <section>
+          <img class="carde" src="../../../assets/imagens/_card/alvaro-reyes-zvmZiw3vdsQ-unsplash.png" alt="">
+          <p class="paragrafo text-center">UX Research, User Persona, and <br>User Story</p>
+        </section>
+        <section>
+          <img class="carde" src="../../../assets/imagens/_card/jeshoots-com-p8kaVRe4edM-unsplash.png" alt="">
+          <p class="paragrafo text-center">Basic Photography & How to Set <br>Up Camera</p>
+        </section>
+        <!-- <section>
+          <img class="carde" src="../../../assets/imagens/_card/jeshoots-com-p8kaVRe4edM-unsplash.png" alt="">
+          <p class="paragrafo text-center">Data and Web Mining: Expert <br> Sistem</p>
+        </section> -->
+      </div>
+    </div>
+  </ng-template>
+
+  <ng-template swiperSlide>
+    <div class="container-md">
+      <div class="d-sm-flex justify-content-around e">
+        <section>
+          <img class="carde" src="../../../assets/imagens/_card/alvaro-reyes-zvmZiw3vdsQ-unsplash.png" alt="">
+          <p class="paragrafo text-center">UX Research, User Persona, and <br>User Story</p>
+        </section>
+        <section>
+          <img class="carde" src="../../../assets/imagens/_card/jeshoots-com-p8kaVRe4edM-unsplash.png" alt="">
+          <p class="paragrafo text-center">Basic Photography & How to Set <br>Up Camera</p>
+        </section>
+        <section>
+          <img class="carde" src="../../../assets/imagens/_card/thisisengineering-raeng-TXxiFuQLBKQ-unsplash (1).png" alt="">
+          <p class="paragrafo text-center">Data and Web Mining: Expert <br> Sistem</p>
+        </section>
+      </div>
+    </div>
+  </ng-template>
+</swiper>
