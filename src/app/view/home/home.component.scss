@@ -87,9 +87,28 @@
   padding-top: 25px;
 }
 
-@media (min-width: 428px) {
-  // .a{
-  //   gap: 10px;
-  // }
+@media (max-width: 428px) {
+  .that{
+    width: 380px;
+  }
+  .a{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    // flex-direction: row !important;
+  }
+  .button1{
+    width: 250px;
+    padding: 10px;
+  }
+  .button2{
+    width: 250px;
+    padding: 10px;
+  }
+  .bt{
+    width: 250px;
+    padding: 10px;
 
+  }
 }

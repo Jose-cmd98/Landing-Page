@@ -30,6 +30,7 @@
 
 <h1 class="texto text-center">Akses Jutaan Video tanpa Batas</h1>
   <swiper
+  class="d-none d-sm-block"
   [effect]="'creative'"
   [creativeEffect]="{
     prev: {
@@ -49,7 +50,7 @@
     [loopFillGroupWithBlank]="true"
     >
   <ng-template swiperSlide>
-    <div class="container-md">
+    <div class="container-md ">
       <div class="d-sm-flex justify-content-around e">
         <section>
           <img class="carde" src="../../../assets/imagens/_card/luke-peters-B6JINerWMz0-unsplash 1.png" alt="">
@@ -89,4 +90,45 @@
       </div>
     </div>
   </ng-template>
+</swiper>
+
+
+<swiper
+class="d-block d-sm-none"
+effect='fade'
+[grabCursor]="true"
+>
+  <ng-template swiperSlide>
+    <div class="container-sm">
+    <section>
+      <img class="carde" src="../../../assets/imagens/_card/luke-peters-B6JINerWMz0-unsplash 1.png" alt="">
+      <p class="paragrafo text-center">Front End Development with <br> CodeIgniter</p>
+    </section>
+    </div>
+  </ng-template>
+  <ng-template swiperSlide>
+    <div class="container-sm">
+    <section>
+      <img class="carde" src="../../../assets/imagens/_card/alvaro-reyes-zvmZiw3vdsQ-unsplash.png" alt="">
+      <p class="paragrafo text-center">UX Research, User Persona, and <br>User Story</p>
+    </section>
+  </div>
+  </ng-template>
+  <ng-template swiperSlide>
+    <div class="container-sm">
+    <section>
+      <img class="carde" src="../../../assets/imagens/_card/jeshoots-com-p8kaVRe4edM-unsplash.png" alt="">
+      <p class="paragrafo text-center">Basic Photography & How to Set <br>Up Camera</p>
+    </section>
+  </div>
+  </ng-template>
+  <ng-template swiperSlide>
+    <div class="container-sm">
+    <section>
+          <img class="carde" src="../../../assets/imagens/_card/thisisengineering-raeng-TXxiFuQLBKQ-unsplash (1).png" alt="">
+          <p class="paragrafo text-center">Data and Web Mining: Expert <br> Sistem</p>
+        </section>
+      </div>
+  </ng-template>
+
 </swiper>
