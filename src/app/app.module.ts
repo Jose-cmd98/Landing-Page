@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CardsComponent } from './view/cards/cards.component';
 import { SwiperModule } from 'swiper/angular';
+import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -28,7 +29,9 @@ import { SwiperModule } from 'swiper/angular';
     BrowserAnimationsModule,
     RouterModule,
     CarouselModule,
-    SwiperModule
+    SwiperModule,
+    NgbModule,
+    NgbCollapseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

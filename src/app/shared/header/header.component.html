@@ -3,6 +3,15 @@
     <a href="" class="navbar-brand">
       LOGO
     </a>
+
+    <!-- expanded navBarCollapse -->
+    <button class="navbar-toggler ms-auto" type="button"
+    (click)="isMenuCollapsed = !isMenuCollapsed"
+    >  <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+    <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
     <ul class="navbar-nav ms-auto">
       <li class="nav-item">
         <a href="" class="nav-link">Home</a>
@@ -14,5 +23,6 @@
         <a href="" class="nav-link">About</a>
       </li>
     </ul>
+  </div>
   </div>
 </nav>
