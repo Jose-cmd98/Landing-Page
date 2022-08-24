@@ -126,3 +126,38 @@
     padding-bottom: 15px;
   }
 }
+
+
+// directive btn
+
+.btn-negotiation-wrapper{
+  position: fixed;
+  bottom: 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  width: 100%;
+  margin-bottom: 120px;
+  display: none;
+   .btn-negotiation{
+    width: 100%;
+    max-width: 360px;
+    border-radius: 10px;
+   background-color: $button-color;
+   padding: 10px 60px 10px 60px;
+   text-decoration: none;
+   font-weight: 700;
+   color: #FFF;
+   font-family: $main-font;
+     &.btn-negotiation:hover{
+       background-color: #FFF;
+       color: $under-card-color;
+       border: 1px solid $under-card-color;
+     }
+   }
+   &.show{
+    display: flex;
+   }
+
+}

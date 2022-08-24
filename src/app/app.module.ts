@@ -1,3 +1,4 @@
+import { DirectivesModule } from './core/directives/directives.module';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -31,7 +32,8 @@ import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CarouselModule,
     SwiperModule,
     NgbModule,
-    NgbCollapseModule
+    NgbCollapseModule,
+    DirectivesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
